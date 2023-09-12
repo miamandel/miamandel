@@ -1,0 +1,12 @@
+insert into Patient(GEBDATUM, SVNR, FIRSTNAME, LASTNAME) values('2003-01-03', 12345,'Mia', 'Mandel');
+insert into Patient(GEBDATUM, SVNR, FIRSTNAME, LASTNAME) values('2001-06-05', 678910,'Sara', 'Mandel');
+insert into Patient(GEBDATUM, SVNR, FIRSTNAME, LASTNAME) values('2003-12-03', 11121314,'Pia', 'Mandel');
+
+insert into MEDIKAMENT(HERSTELLER, NAME, PREIS) values('Bionteck', 'Ibuprofen', 10);
+insert into MEDIKAMENT(HERSTELLER, NAME, PREIS) values('Luz', 'Pille', 12);
+insert into MEDIKAMENT(HERSTELLER, NAME, PREIS) values('Purpur', 'Aknetablette', 11);
+
+insert into VERSCHREIBUNG(DATE, MEDIKAMENT_ID, PATIENT_GEBDATUM, PATIENT_SVNR) values('2023-01-02', 1, '2003-01-03', 12345);
+insert into VERSCHREIBUNG(DATE, MEDIKAMENT_ID, PATIENT_GEBDATUM, PATIENT_SVNR) values('2023-01-02', 2, '2001-06-05', 678910);
+insert into VERSCHREIBUNG(DATE, MEDIKAMENT_ID, PATIENT_GEBDATUM, PATIENT_SVNR) values('2023-01-02', 2, '2003-01-03', 12345);
+
